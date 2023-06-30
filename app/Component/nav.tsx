@@ -3,15 +3,10 @@ import firebase from 'firebase/app';
 import 'firebase/auth'; // Import the 'auth' module explicitly
 import firebaseConfig from '@/firebaseConfig';
 
-/* if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-} */
 
-const NavigationBar: React.FC = () => {
-  const handleGoogleSignIn = () => {
-    /* onst provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider);
- */  };
+
+const NavigationBar = () => {
+
 
   return (
     <nav className="bg-transparent">
